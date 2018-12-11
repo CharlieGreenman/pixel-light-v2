@@ -9,4 +9,4 @@ export class ChooseSize extends React.Component {
 
 }
 
-export default ;
+export default ChooseSize;
