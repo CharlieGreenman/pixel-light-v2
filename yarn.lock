@@ -1476,6 +1476,11 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.1.tgz#48fd98c1561fe718b61733daed46ff115b496e18"
   integrity sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA==
 
+"@types/react-css-modules@^4.6.2":
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/@types/react-css-modules/-/react-css-modules-4.6.2.tgz#ff6451cb848d5e49c074ce9820bb52073e028f82"
+  integrity sha512-jRgAsH//g6BHS/cINR90HE2GJWGZe5tLYilxFMY1zTns4BvQ8DUXMQg5333HVSGoj7bjkDLK/whrgfzdAattHg==
+
 "@types/react-dom@^16.0.11":
   version "16.0.11"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.11.tgz#bd10ccb0d9260343f4b9a49d4f7a8330a5c1f081"

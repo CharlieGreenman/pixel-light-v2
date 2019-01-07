@@ -1,4 +1,5 @@
 import * as React from 'react';
+import styles from './choose-size.module.scss'; // Import css modules stylesheet as styles
 
 export class ChooseSize extends React.Component {
   constructor(props: any){
@@ -18,16 +19,16 @@ export class ChooseSize extends React.Component {
 
   public render() {
     return (
-      <div ref="chooseSizeContainer">
-        <h6>Choose size of grid</h6>
-        <form>
-          <label>columns</label>
-          <label>rows</label>
-          <input onChange={this.handleChange} type="text" id="input-for-columns"  />
-          <input onChange={this.handleChange} type="text" id="input-for-rows"  />
-          <label>Pixel Size</label>
-          <button onClick={(e) => this.handleClick(e)} id="create_grid" type="button" >Create Grid</button>
-          <input onChange={this.handleChange} type="text" id="input-for-pixel-size"  />
+      <div className={styles.chooseSize} ref="chooseSizeContainer">
+        <h6 className={styles.chooseSize}>Choose size of grid</h6>
+        <form className={styles.form}>
+          <label className={styles.label}>columns</label>
+          <label className={styles.label}>rows</label>
+          <input className={styles.input} onChange={this.handleChange} type="text" id="input-for-columns"  />
+          <input className={styles.input} onChange={this.handleChange} type="text" id="input-for-rows"  />
+          <label className={styles.label}>Pixel Size</label>
+          <button className={styles.button} onClick={(e) => this.handleClick(e)} id="create_grid" type="button" >Create Grid</button>
+          <input className={styles.input} onChange={this.handleChange} type="text" id="input-for-pixel-size"  />
         </form>
       </div>
     );
