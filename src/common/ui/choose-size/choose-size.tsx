@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styles from './choose-size.module.scss'; // Import css modules stylesheet as styles
+import Button from '@material-ui/core/Button';
 
 export class ChooseSize extends React.Component {
   constructor(props: any){
@@ -27,7 +28,7 @@ export class ChooseSize extends React.Component {
           <input className={styles.input} onChange={this.handleChange} type="text" id="input-for-columns"  />
           <input className={styles.input} onChange={this.handleChange} type="text" id="input-for-rows"  />
           <label className={styles.label}>Pixel Size</label>
-          <button className={styles.button} onClick={(e) => this.handleClick(e)} id="create_grid" type="button" >Create Grid</button>
+          <Button onClick={(e) => this.handleClick(e)} id="create_grid" type="button" >Create Grid</Button>
           <input className={styles.input} onChange={this.handleChange} type="text" id="input-for-pixel-size"  />
         </form>
       </div>
